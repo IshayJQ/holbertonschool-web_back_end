@@ -1,6 +1,7 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 """Variable Annotations"""
 import math
+
 
 def floor(n: float) -> float:
     """Return de floor of a number"""
