@@ -2,7 +2,6 @@
 """Variable Annotations"""
 
 
-def add (a: float, b: float) -> float:
+def add(a: float, b: float) -> float:
     """Return the sum of two numbers type float"""
     return a+b
-
