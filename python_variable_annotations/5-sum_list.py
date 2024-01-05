@@ -2,7 +2,7 @@
 """Variable Annotations"""
 
 
-def sum_list(input_list: float) -> float:
+def sum_list(input_list: list[float]) -> float:
     """Return the sum of a list float number"""
     suma: float = 0
     for num in input_list:
