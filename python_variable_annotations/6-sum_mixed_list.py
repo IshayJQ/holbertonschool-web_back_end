@@ -2,4 +2,6 @@
 """Variable Annotations"""
 
 
-def sum_mixed_list(mxd_lst: int) -> 
+def sum_mixed_list(mxd_lst: list[int | float]) -> float:
+
+    """Return """
