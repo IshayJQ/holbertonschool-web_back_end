@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Variable Annotations"""
-from typing import Iterable, Tuple, Sequence
+from typing import Iterable, Tuple, Sequence, List
 
 
 def element_length(lst: Iterable[Sequence]) -> List[Tuple[Sequence, int]]:
