@@ -2,7 +2,7 @@
 """"
 execute async_comprehension four times in parallel using asyncio.gather
 """
-import asyncio
+from asyncio import gather
 from typing import List
 import time
 
@@ -18,7 +18,7 @@ async def measure_runtime() -> float:
     """
     Execute async_comprehension four times in parallel using asyncio.gather
     """
-    await asyncio.gather(
+    await gather(
         async_comprehension(),
         async_comprehension(),
         async_comprehension(),
