@@ -1,12 +1,11 @@
 #!/usr/bin/env python3
-
-import asyncio
-import random
-from typing import List
 """
 Coroutine that loops 10 times, asynchronously waits 1 second,
 and yields a random number between 0 and 10.
 """
+import asyncio
+import random
+from typing import List
 
 
 async def async_generator() -> List[float]:
