@@ -28,7 +28,7 @@ export default class HolbertonCourse {
   }
 
   get students() {
-    return [...this._students];
+    return this._students;
   }
 
   set students(value) {
@@ -38,6 +38,6 @@ export default class HolbertonCourse {
     if (value.some((number) => typeof number !== 'string')) {
       throw new TypeError('Students must be a array of string');
     }
-    this._students = [...value];
+    this._students = value;
   }
 }
