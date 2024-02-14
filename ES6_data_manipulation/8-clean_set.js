@@ -1,4 +1,9 @@
 export default function cleanSet(set, startString) {
+  // Return an empty string if the startString is not provided or is not a string
+  if (typeof startString !== 'string') {
+    return '';
+  }
+
   // Filter values from the set that start with the specified startString
   const filteredValues = Array.from(set).filter((value) => value.startsWith(startString));
 
